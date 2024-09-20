@@ -1,0 +1,150 @@
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+}
+
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+
+.flex-grow {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-2 {
+  flex-grow: 2;
+}
+
+.flex-shrink {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.shrink-0 {
+  flex-shrink: 0.5;
+}
+
+.flex-basis {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.basis-200 {
+  flex-basis: 200px;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.outer-flex-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.inner-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.outer-flex-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inner-flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.space-around-container {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.grid-4x3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-special {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item1 {
+  grid-column: span 2;
+}
+
+.item2 {
+  grid-row: span 2;
+}
+
+.grid-different-columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
